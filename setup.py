@@ -16,7 +16,7 @@ setuptools.setup(
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
-    keywords='flask ngrok demo',
+    keywords='flask ngrok server utility',
     install_requires=['Flask>=0.8', 'requests'],
     py_modules=['quick_flask_server']
 )
