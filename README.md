@@ -14,7 +14,7 @@ pip install quick-flask-server
 1. Import with ```from quick_flask_server import run_with_ngrok```
 2. Add `run_with_ngrok(app)` to make your Flask app available upon running
 ```python
-# flask_ngrok_example.py
+# example.py
 from flask import Flask
 from quick_flask_server import run_with_ngrok
 
@@ -35,3 +35,15 @@ python quick_flask_server/example.py
  * Running on http://<random-address>.ngrok.io
  * Traffic stats available on http://127.0.0.1:4040 
 ```
+
+You might also see this, 
+
+![sample-cli-output](./img/1.png)
+
+You can copy the ngrok URL also from here.
+
+As shown in the above image ngrok has a web-interface which can be accessed at localhost:4040
+
+Here is a sample image of the web interface,
+
+![sample-ngrok-web-ui](./img/2.png)
