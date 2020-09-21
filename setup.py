@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="quick-flask-server",
-    version="1.1",
+    version="1.1.2",
     author="Abhinand Balachandran",
     description="Quickly serve your flask apps using ngrok",
     long_description=long_description,
