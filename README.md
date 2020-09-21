@@ -30,7 +30,7 @@ if __name__ == '__main__':
 ```
 Running the example:
 ```bash
-python quick_flask_server_example.py
+python quick_flask_server/example.py
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
  * Running on http://<random-address>.ngrok.io
  * Traffic stats available on http://127.0.0.1:4040 
